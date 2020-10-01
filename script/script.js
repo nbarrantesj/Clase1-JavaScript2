@@ -16,9 +16,9 @@
     }
 }*/
 /*1° PASO: seleccionar los elementos con los que iremos a trabajar*/
-const enlaces = document.querySelectorAll('.tabs-tablist-item');
+const enlaces = document.querySelectorAll(' .tabs-tablist-item');
 
-const contenido = document.querySelectorAll('.tabs-contenidot-item');
+const contenido = document.querySelectorAll(' .tabs-content-item');
 
 /*2° PASO: ocultar los elementos que no queremos mostrar*/
 /*for (let i = 0; i < contenidoido.length; i++) {
@@ -37,7 +37,7 @@ for (let i = 0; i < contenido.length; i++) {
     contenido[i].classList.add('js-content-hidden');
 }
 
-contenido[0].classList.remove('js.active');
+contenido[0].classList.remove('js-content-hidden');
 enlaces[0].classList.add('js-active');
 
 for (let i = 0; i < enlaces.length; i++) {
